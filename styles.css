@@ -1,3 +1,20 @@
 /* Write your CSS here!
     You can design your website any way you want using CSS
     Bootstrap is also included here so don't worry and just keep designing! */
+
+/* This is how you can add border with rounded corners to the cards */
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* This is how you can add a margin between the paragraph and the cards */
+#id1{
+    margin: 0.5rem;
+}
+
+/* This is how you add border and margin to specific buttons */
+.btn-info{
+    border: 2px solid black;
+    margin-bottom: 2rem;
+}

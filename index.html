@@ -5,7 +5,7 @@
 
     <!--This is Bootstrap's CSS file which will help you to style your webpage-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="styles.css">    <!--Edit this file to make your own designs!-->
+    <link href="styles.css" rel="stylesheet">    <!--Edit this file to make your own designs!-->
     
     <!--This meta data helps us to allow useful things such as keywords-->
     <meta charset="UTF-8">
@@ -42,16 +42,64 @@
     <div class="container">
         <h1>This is sample website</h1>
 
-        <div class="row">
-            <div class="col-8">
-                <h2>This is a column of 8/12 blocks</h2>
+        <!--This is an example of 2 column layout. It's responsive too! :D-->
+        <div class="row" id="id1">
+            <div class="col-8 col-md-8">
+
+                <!--You can change the paragraphs here!-->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Arcu vitae elementum curabitur vitae nunc sed velit. Magna fringilla urna porttitor rhoncus dolor. Adipiscing at in tellus integer feugiat scelerisque varius morbi enim. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Laoreet id donec ultrices tincidunt arcu non sodales. Euismod nisi porta lorem mollis. Malesuada nunc vel risus commodo. Ut porttitor leo a diam sollicitudin tempor id eu. In metus vulputate eu scelerisque felis imperdiet proin.</p>
+                <p>Egestas erat imperdiet sed euismod nisi porta. Sed arcu non odio euismod lacinia at quis risus. Facilisis mauris sit amet massa vitae. Sed lectus vestibulum mattis ullamcorper velit. Eget nullam non nisi est. Tincidunt dui ut ornare lectus sit. Venenatis tellus in metus vulputate eu. Nulla facilisi nullam vehicula ipsum. Magna fringilla urna porttitor rhoncus dolor purus non enim praesent. Arcu bibendum at varius vel pharetra vel turpis nunc. Vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci. Mi sit amet mauris commodo quis imperdiet massa.</p>
+                <p>Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Nisi lacus sed viverra tellus in hac habitasse platea dictumst. Molestie nunc non blandit massa enim nec dui nunc mattis. Non diam phasellus vestibulum lorem sed. Semper viverra nam libero justo laoreet. Fermentum odio eu feugiat pretium nibh. Tellus at urna condimentum mattis pellentesque id. Sodales neque sodales ut etiam sit amet nisl purus in.</p>
             </div>
-            <div class="col-4">
-                <h2>This is a column of 4/12 blocks</h2>
+            <div class="col-4 col-md-4">
+                <!--This is a vertical button group. You can add as many as you want!-->
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-info">!Put your button name here!</button>
+                    <button type="button" class="btn btn-info">!Put your button name here!</button>
+                    <button type="button" class="btn btn-info">!Put your button name here!</button>
+                    <button type="button" class="btn btn-info">!Put your button name here!</button>
+                    <button type="button" class="btn btn-info">!Put your button name here!</button>
+                    <button type="button" class="btn btn-info">!Put your button name here!</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4 col-md-4">
+
+                <!--This is a card :)-->
+                <div class="card" style="width: 18rem;">
+                    <img src="BG.jpeg" class="card-img-top" alt="Some picture">     <!--Put the image name in the src-->
+                    <div class="card-body">
+                      <h5 class="card-title">!Name your card!</h5>
+                      <p class="card-text">!Put some text here!</p>
+                      <a href="#" class="btn btn-success">!Link your card to some place!</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="BG.jpeg" class="card-img-top" alt="Some picture">  
+                    <div class="card-body">
+                      <h5 class="card-title">!Name your card!</h5>
+                      <p class="card-text">!Put some text here!</p>
+                      <a href="#" class="btn btn-success">!Link your card to some place!</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="BG.jpeg" class="card-img-top" alt="Some picture">
+                    <div class="card-body">
+                      <h5 class="card-title">!Name your card!</h5>
+                      <p class="card-text">!Put some text here!</p>
+                      <a href="#" class="btn btn-success">!Link your card to some place!</a>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>
     
     <!-- JavaScript Bundle with Popper (Makes our website interactive!) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXs!Put your button name here!UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
